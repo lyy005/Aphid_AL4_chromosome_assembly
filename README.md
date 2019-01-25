@@ -5,7 +5,7 @@ This document is a walkthrough of the methods and code used to analyze the chrom
 
 
 ### 1.1 - BUSCO analysis 
-Download the AL4 assembly under the NCBI accession number:PRJNA496478
+Download the AL4 assembly under the NCBI accession number: PRJNA496478
 
 install BUSCO version 3.0.2 and Insecta near-universal single-copy orthologs from OrthoDB v9: https://busco.ezlab.org
 python run_BUSCO.py -i assembly.fasta -l ./insecta_odb9/ -m geno -f -o busco_output -c 8 > assembly.log
