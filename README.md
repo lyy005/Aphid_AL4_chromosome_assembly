@@ -11,12 +11,15 @@ install BUSCO version 3.0.2 and Insecta near-universal single-copy orthologs fro
 python run_BUSCO.py -i assembly.fasta -l ./insecta_odb9/ -m geno -f -o busco_output -c 8 > assembly.log
 
 ### 1.2 - Microsatellite primer mapping
-Microsatellite primer sequences can be found: 
+Microsatellite primer sequences can be found: TBD
 
 makeblastdb -in assembly.fasta  -dbtype nucl
 blastn -db assembly.fasta -query primers.chr1.fasta -out primers.chr1.blast.out -evalue 1 -task blastn-short -outfmt "6 qlen qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"
+
 blastn -db assembly.fasta -query primers.chr2.fasta -out primers.chr2.blast.out -evalue 1 -task blastn-short -outfmt "6 qlen qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"
+
 blastn -db assembly.fasta -query primers.chr3.fasta -out primers.chr3.blast.out -evalue 1 -task blastn-short -outfmt "6 qlen qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"
+
 blastn -db assembly.fasta -query primers.chrx.fasta -out primers.chrx.blast.out -evalue 1 -task blastn-short -outfmt "6 qlen qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"
 
 
