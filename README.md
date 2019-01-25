@@ -5,6 +5,6 @@ This document is a walkthrough of the methods and code used to analyze the chrom
 ## Quality filtering for resequencing data
 
 ## Citation:
-Li Y, Park H, Smith TS, and Moran NA. 2019. Gene Family Evolution in the Pea Aphid Based on Chromosome-level Genome Assembly. 
+Li Y, Park H, Smith TE, and Moran NA. 2019. Gene Family Evolution in the Pea Aphid Based on Chromosome-level Genome Assembly. 
 
 
