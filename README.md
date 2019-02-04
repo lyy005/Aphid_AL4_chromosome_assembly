@@ -38,9 +38,11 @@ Scripts relate to BLASTP and finding reciprecal best BLAST hits: ./step_3/
 
 The R script for Figure 4 is also under: ./step_3/
 
+LAST alignment and Circos plot script is under: ./step_3/circos/
+
 ## 4 - Location of Functional Genes: 
 
-## Quality filtering for resequencing data
+Scripts can be found under: ./step_4/
 
 ## Citation:
 Li Y, Park H, Smith TE, and Moran NA. 2019. Gene Family Evolution in the Pea Aphid Based on Chromosome-level Genome Assembly. 
