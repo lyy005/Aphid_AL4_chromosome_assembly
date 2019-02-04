@@ -18,7 +18,7 @@ Scripts can be found: ./step_1.2/cmd.sh
 ### 1.3 - Sequencing depth evaluation and Heterozygosity calculation: 
 Data and scripts can be found: ./step_1.3/
 
-## 2 - Genome Annotation Verification: 
+## 2 - Genome Annotation: 
 
 ## 3 - Genome Duplication Analysis: 
 
