@@ -29,7 +29,22 @@ blastn -db assembly.fasta -query primers.chr3.fasta -out primers.chr3.blast.out 
 
 blastn -db assembly.fasta -query primers.chrx.fasta -out primers.chrx.blast.out -evalue 1 -task blastn-short -outfmt "6 qlen qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"
 
+**Summarize the BLAST output**
+perl check_blast.step1.pl primers.chr1.blast.out primers.chr1.fasta | grep "same" > primers.chr1.blast.out.filtered.same
 
+perl check_blast.step1.pl primers.chr2.blast.out primers.chr2.fasta | grep "same" > primers.chr2.blast.out.filtered.same
+
+perl check_blast.step1.pl primers.chr3.blast.out primers.chr3.fasta | grep "same" > primers.chr3.blast.out.filtered.same
+
+perl check_blast.step1.pl primers.chr4.blast.out primers.chr4.fasta | grep "same" > primers.chr4.blast.out.filtered.same
+
+perl check_blast.step2.pl primers.chr1.blast.out.filtered.same primers.chr1.blast.out
+
+perl check_blast.step2.pl primers.chr2.blast.out.filtered.same primers.chr2.blast.out
+
+perl check_blast.step2.pl primers.chr3.blast.out.filtered.same primers.chr3.blast.out
+
+perl check_blast.step2.pl primers.chr4.blast.out.filtered.same primers.chr4.blast.out
 
 ## Quality filtering for resequencing data
 
