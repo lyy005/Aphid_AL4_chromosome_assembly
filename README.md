@@ -11,7 +11,13 @@ install BUSCO version 3.0.2 and Insecta near-universal single-copy orthologs fro
 python run_BUSCO.py -i assembly.fasta -l ./insecta_odb9/ -m geno -f -o busco_output -c 8 > assembly.log
 
 ### 1.2 - Microsatellite primer mapping
-Microsatellite primer sequences can be found: TBD
+Microsatellite primer sequences can be found under: ./step_1.2/
+
+**Extract QTL information:**
+
+perl extract_primer_fasta.pl qtl.table primers
+
+**Align primers to the AL4 assembly:**
 
 makeblastdb -in assembly.fasta  -dbtype nucl
 
