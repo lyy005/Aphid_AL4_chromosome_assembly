@@ -34,7 +34,7 @@ nohup wq_maker -contigs-per-split 1 -cores 1 -memory 204800 -disk 409600 -N wq_a
 
 ## 3 - Genome Duplication Analysis: 
 
-Scripts relate to BLASTP and finding reciprecal best BLAST hits
+Scripts relate to BLASTP and finding reciprecal best BLAST hits: ./step_3/
 
 The R script for Figure 4 is also under: ./step_3/
 
