@@ -1,0 +1,6 @@
+chr - Scaffold_20849 Chr1 0 170740645 0,115,194
+chr - Scaffold_21967 Chr2 0 119541763 134,134,134
+chr - Scaffold_21646 Chr3 0 42333646 205,83,76
+chr - Scaffold_21773 ChrX 0 132544852 239,192,0
+#chr - Scaffold_20960 Sf1 0 1832872 black
+#chr - Scaffold_21109 Sf2 0 1247914 black

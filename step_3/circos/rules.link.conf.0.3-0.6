@@ -1,0 +1,48 @@
+<rule>
+condition  = 1
+z          = 40
+bezier_radius  = 1.1r
+bezier_radius_purity = 0.50
+thickness  = 3
+flow       = continue
+</rule>
+
+<rule>
+condition = var(value) >= 0.3 && var(value) < 0.6
+color     = black
+z         = 10 
+ribbon    = yes
+flow      = continue
+</rule>
+
+<rule>
+condition  = var(value) < 0.3
+z       = 5
+ribbon = yes
+show = no
+</rule>
+
+<rule>
+condition  = var(value) >= 0.6
+z       = 5
+ribbon = yes
+show = no
+</rule>
+
+<rule>
+condition  = var(interchr)
+##radius        = 0.8r
+bezier_radius = 0r
+perturb_bezier_radius = 0
+color      = red
+</rule>
+
+<rule>
+condition  = var(intrachr)
+##radius        = 0.8r
+color     = black
+##perturb_bezier_radius = 1.25
+#bezier_radius = 0.2r
+bezier_radius_purity = 1
+
+</rule>
