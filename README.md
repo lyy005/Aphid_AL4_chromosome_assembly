@@ -17,7 +17,7 @@ Microsatellite primer sequences can be found under: ./step_1.2/
 
 perl extract_primer_fasta.pl qtl.table primers
 
-**Align primers to the AL4 assembly: **
+**Align primers to the AL4 assembly:**
 
 makeblastdb -in assembly.fasta  -dbtype nucl
 
