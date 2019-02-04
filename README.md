@@ -15,8 +15,13 @@ Microsatellite primer sequences can be found under: ./step_1.2/
 
 Scripts can be found: ./step_1.2/cmd.sh
 
+### 1.3 - Sequencing depth evaluation
 
+## 2 - Genome Annotation Verification: 
 
+## 3 - Genome Duplication Analysis: 
+
+## 4 - Location of Functional Genes: 
 
 ## Quality filtering for resequencing data
 
