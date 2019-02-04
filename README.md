@@ -30,6 +30,7 @@ blastn -db assembly.fasta -query primers.chr3.fasta -out primers.chr3.blast.out 
 blastn -db assembly.fasta -query primers.chrx.fasta -out primers.chrx.blast.out -evalue 1 -task blastn-short -outfmt "6 qlen qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"
 
 **Summarize the BLAST output**
+
 perl check_blast.step1.pl primers.chr1.blast.out primers.chr1.fasta | grep "same" > primers.chr1.blast.out.filtered.same
 
 perl check_blast.step1.pl primers.chr2.blast.out primers.chr2.fasta | grep "same" > primers.chr2.blast.out.filtered.same
