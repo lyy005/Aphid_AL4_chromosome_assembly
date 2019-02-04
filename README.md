@@ -15,7 +15,8 @@ Microsatellite primer sequences can be found under: ./step_1.2/
 
 Scripts can be found: ./step_1.2/cmd.sh
 
-### 1.3 - Sequencing depth evaluation
+### 1.3 - Sequencing depth evaluation and Heterozygosity calculation: 
+Data and scripts can be found: ./step_1.3/
 
 ## 2 - Genome Annotation Verification: 
 
