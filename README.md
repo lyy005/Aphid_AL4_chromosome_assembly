@@ -15,8 +15,12 @@ Microsatellite primer sequences can be found under: ./step_1.2/
 
 Scripts can be found: ./step_1.2/cmd.sh
 
+The R script for Figure 2 can be found under: ./step_1.2/
+
 ### 1.3 - Sequencing depth evaluation and Heterozygosity calculation: 
 Data and scripts can be found: ./step_1.3/
+
+The R script for Figure 3 is also under: ./step_1.3/
 
 ## 2 - Genome Annotation using WQ_MAKER: 
 
@@ -29,6 +33,8 @@ wget http://bipaa.genouest.org/sp/acyrthosiphon_pisum/download/annotation/v2.1b/
 nohup wq_maker -contigs-per-split 1 -cores 1 -memory 204800 -disk 409600 -N wq_aphid_${USER} -d all -o master.dbg -debug_size_limit=0 -stats test_out_stats.txt > log_file.txt 2>&1 & 
 
 ## 3 - Genome Duplication Analysis: 
+
+The R script for Figure 4 is also under: ./step_2/
 
 ## 4 - Location of Functional Genes: 
 
