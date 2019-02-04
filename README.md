@@ -13,11 +13,11 @@ python run_BUSCO.py -i assembly.fasta -l ./insecta_odb9/ -m geno -f -o busco_out
 ### 1.2 - Microsatellite primer mapping
 Microsatellite primer sequences can be found under: ./step_1.2/
 
-**Extract QTL information:
+**Extract QTL information:**
 
 perl extract_primer_fasta.pl qtl.table primers
 
-**Align primers to the AL4 assembly: 
+**Align primers to the AL4 assembly: **
 
 makeblastdb -in assembly.fasta  -dbtype nucl
 
