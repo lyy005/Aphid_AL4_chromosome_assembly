@@ -24,3 +24,4 @@ perl combine_blast_cM.v2.pl qtl.table primers primers.chr2.blast.out.filtered.sa
 perl combine_blast_cM.v2.pl qtl.table primers primers.chr3.blast.out.filtered.same.loci > primers.chr3.blast.out.filtered.same.loci.combined
 perl combine_blast_cM.v2.pl qtl.table primers primers.chr4.blast.out.filtered.same.loci > primers.chr4.blast.out.filtered.same.loci.combined
 
+R -f fig2_qtl.plot.R
