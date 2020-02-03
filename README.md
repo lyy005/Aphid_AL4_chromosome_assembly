@@ -26,11 +26,11 @@ The R script for Figure 3 is also under: ./step_1.3/
 
 **The control file for MAKER can be found under ./step_2/**
 
-wget http://bipaa.genouest.org/sp/acyrthosiphon_pisum/download/annotation/v2.1b/aphidbase_2.1b_transcripts.fasta
+    wget http://bipaa.genouest.org/sp/acyrthosiphon_pisum/download/annotation/v2.1b/aphidbase_2.1b_transcripts.fasta
 
-wget http://bipaa.genouest.org/sp/acyrthosiphon_pisum/download/annotation/v2.1b/aphidbase_2.1b_pep.fasta
+    wget http://bipaa.genouest.org/sp/acyrthosiphon_pisum/download/annotation/v2.1b/aphidbase_2.1b_pep.fasta
 
-nohup wq_maker -contigs-per-split 1 -cores 1 -memory 204800 -disk 409600 -N wq_aphid_${USER} -d all -o master.dbg -debug_size_limit=0 -stats test_out_stats.txt > log_file.txt 2>&1 & 
+    nohup wq_maker -contigs-per-split 1 -cores 1 -memory 204800 -disk 409600 -N wq_aphid_${USER} -d all -o master.dbg -debug_size_limit=0 -stats test_out_stats.txt > log_file.txt 2>&1 & 
 
 ## 3 - Genome Duplication Analysis: 
 
