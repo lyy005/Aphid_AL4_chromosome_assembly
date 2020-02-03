@@ -46,6 +46,6 @@ LAST alignment and Circos plot script is under: ./step_3/circos/
 Scripts can be found under: ./step_4/
 
 ## Citation:
-Li Y, Park H, Smith TE, and Moran NA. 2019. Gene Family Evolution in the Pea Aphid Based on Chromosome-level Genome Assembly. 
+Li, Y., Park, H., Smith, T.E. and Moran, N.A., 2019. Gene family evolution in the pea aphid based on chromosome-level genome assembly. Molecular biology and evolution, 36(10), pp.2143-2156.
 
 
